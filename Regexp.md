@@ -73,4 +73,4 @@ console.log(matched);
 
 ## Useful Regular Expressions Links
 - MDN : [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Character_Classes) <br/>
-- 바로바로 실습가능한 웹사이트, 실습가능한 사이트 [regexr](https://regexr.com) <br/>
+- 정규표현식 실습가능한 웹사이트 [regexr](https://regexr.com) <br/>
