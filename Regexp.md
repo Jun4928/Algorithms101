@@ -72,8 +72,5 @@ console.log(matched);
 
 
 ## Useful Regular Expressions Links
-
-- 한국어 설명 : [Kor](http://www.nextree.co.kr/p4327/) <br/>
-- Eng MDN : [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Character_Classes) <br/>
-
-- 바로바로 실습가능한 **매우유용!** :[Eng, 실습가능](https://regexr.com) <br/>
+- MDN : [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Character_Classes) <br/>
+- 바로바로 실습가능한 웹사이트, 실습가능한 사이트 [regexr](https://regexr.com) <br/>
