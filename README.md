@@ -8,5 +8,5 @@ In order to become a competent JavaScript Developer<br/>
 ### **LeetCode** : the english version of the above "programmers"
 [leetcode link](https://leetcode.com)
 
-### **JavaScript Algorithms, Data Structures Course** 
+### **JavaScript Algorithms Course Records** 
 [udemy course link](https://www.udemy.com/share/101WNkAEIYdV9aR3sF/)
