@@ -19,6 +19,7 @@
 - pys.js : 문자열 내 p와 y의 개수
 - secretMap.js : 비밀지도 (2018 KAKAO BLIND RECRUITMENT)
 - squareStars.js : 직사각형 별찍기
+- stringBasics.js : 문자열 다루기 기본
 - stringToInt.js : 문자열을 정수로 바꾸기
 - stringUptoDown.js : 문자열 내림차순으로 배치하기
 - wiedStrings.js : 이상한 문자 만들기
