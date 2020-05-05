@@ -5,8 +5,8 @@ In order to become a competent JavaScript Developer<br/>
 ### **Programmers** : 한국어 알고리즘 문제풀이 사이트
 [programmers link](https://programmers.co.kr)
 
-### **LeetCode** : the english version of the above programmers
+### **LeetCode** : the english version of the above "programmers"
 [leetcode link](https://leetcode.com)
 
-### **Udemy: JavaScript Algorithms, Data Structures** : udemy english lecture
+### **JavaScript Algorithms, Data Structures** : udemy english lecture
 [udemy course link](https://www.udemy.com/share/101WNkAEIYdV9aR3sF/)
