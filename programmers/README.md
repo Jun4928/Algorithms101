@@ -29,3 +29,6 @@
 
 ### **LEVEL2**
 
+**2020.05.06-**
+- newsClustering.js : 뉴스 클러스터링 (2018 KAKAO BLIND RECRUITMENT)
+
