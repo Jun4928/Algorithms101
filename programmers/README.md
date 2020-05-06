@@ -23,6 +23,7 @@
 - stringBasics.js : 문자열 다루기 기본
 - stringToInt.js : 문자열을 정수로 바꾸기
 - stringUptoDown.js : 문자열 내림차순으로 배치하기
+- trainingClothes.js : 체육복
 - wiedStrings.js : 이상한 문자 만들기
 
 
