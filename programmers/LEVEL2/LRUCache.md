@@ -28,7 +28,7 @@
 선반에서 밀려나가는 것이 바로 the Least Recently Used one 이다. <br/>
 최근에 읽긴 읽었는데, 가장 오래된 놈. 그것이 선반(cache)에서 빌려나가 책장(disk)으로 가는 놈이다. 이것이 이 알고리즘의 핵심!
 
-## **구현**
+## **구현1**
 알고리즘은 생각보다 단순하지만, 캐쉬의 속도를 높이기 위해서는 두 가지의 자료구조가 필요하다.
 
 - **Doublely Linked List** : cache 안에 저장된 데이터들의 순서를 담당한다. 
@@ -55,9 +55,18 @@
     return data
 ```
 
+## **구현2**
+- JavaScript 의 Map() Object 를 이용 해 보자
 
+### **Map Obejct in JavaScript**
+**Reference**<br/>
+*[MDN Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)*<br/>
 
-
+**JavaScript Map vs. Object**<br/>
+1. Key Types : Object 는 무조건 Key가 Stirng이나 Symbol 이 되어야 하는 반면에, Map 의 Key값은 어떤 것이든 상관없다. 
+2. Key Order : Map 에서 Key 들은 순서대로 저장된다. 그래서, 처음부터 끝까지 Key를 참조할 때, 집어 넣은 순서대로 Key 를 리턴한다. => LRU Cache 구현에 사용되는 이유 
+3. Size : size property 를 이용하면, Map 의 사이즈를 단번에 참조 가능하다. Object 는 `Obejct.keys(object).length` method 를 사용해서 크기 참조 가능함.
+4. Performance : Object 보다 자주 반복되는 Key-Value 쌍의 추가, 삭제에서 성능이 좋다. 
 
 
 
