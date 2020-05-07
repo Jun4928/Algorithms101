@@ -13,10 +13,11 @@ function solution(N, stages) {
 
         if(reached === 0) return {stage: index+1, rate: 0} // reached = 0 => rate: 0 
 
-        return {stage: index+1, rate: thisStage / reached};
+        return {stage: index+1, rate: thisStage / reached}; // 객체를 return 
     });
 
 
+    // fRate: array => element : {stage: stage number, rate: failure rate value};
     fRate.sort( (a, b) => { // failure rate 내림차순
         if(a.rate < b.rate) return 1; // return value > 0 b comes first
         if(a.rate > b.rate) return -1; // return value < 0 a comes first 
