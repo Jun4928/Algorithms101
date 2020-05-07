@@ -13,8 +13,57 @@
 - dartResult.js : 다트 게임 (2018 KAKAO BLIND RECRUITMENT)
 - **failureRate.js : 실패율 (2019 KAKAO BLIND RECURITMENT) : sort 함수 정확하게 사용해야 함!**
     - JavaScript Array.sort() method
+    - reference : [MDN Array.sort()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
     ```javascript
+    function compare(a, b) { // 오름차순
+        if (a is less than b by some ordering criterion) {
+            return -1; // return value < 0, a comes first
+        }
+        if (a is greater than b by the ordering criterion) {
+            return 1; // return value > 0, b comes first
+        }
+        // 같을 때 처리
+        return 0;
+    }
 
+    function compare(a, b) { // 내림차순 
+        if (a is less than b by some ordering criterion) {
+            return 1; // return value > 0, b comes first
+        }
+        if (a is greater than b by the ordering criterion) {
+            return -1; // return value < 0, a comes first
+        }
+
+        // 같을 때 처리
+        return 0;
+    }
+    ```
+    ```javascript
+    const list = ['Delta', 'alpha', 'CHARLIE', 'bravo'];
+
+    // temporary array holds objects with position and sort-value
+    const mapped = list.map( (el, i) => {
+    return { index: i, value: el.toLowerCase() };
+    });
+
+    // sorting the mapped array containing the reduced values
+    // 이 경우에, list 오름차순
+    mapped.sort((a, b) => {
+        if (a.value < b.value) { // a comes first
+            return -1;
+        }
+
+        if (a.value > b.value) { // b comes first
+            return 1;
+        }
+
+        return 0; //  leave a and b unchanged
+    });
+
+    // container for the resulting order
+    const result = mapped.map((el) => {
+        return list[el.index];
+    });
     ```
 - findKimSeoBang.js : 서울에서 김서방 찾기
 - hateSameNumbers.js : 같은 숫자는 싫어
