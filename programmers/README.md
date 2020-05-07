@@ -30,7 +30,7 @@
 ### **LEVEL2**
 
 **2020.05.06-**
-- LRUCache.js : LRU Cache Alorithm Implementation
+- LRUCache.js : 캐시 (2018 KAKAO BLIND RECRUITMENT)
 - LRUCache.md : LRU Cache Algorithm 정리한 마크다운 문서
 - newsClustering.js : 뉴스 클러스터링 (2018 KAKAO BLIND RECRUITMENT)
 
