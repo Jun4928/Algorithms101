@@ -8,10 +8,11 @@
 문제를 잘 이해하고, 필요한 자료구조를 사용해야 한다. <br/>
 어려운 자료구조나 알고리즘(ex. 트리, 이분탐색트리, DFS, BFS, 동적 계획법등..) 나오지는 않지만, 기본적으로 배열, 스택, 큐에 대한 이해와 적절한 사용이 필요한 문제들이 있다.
 
-**2020.05.04-2020.05.06**
+**2020.05.04-2020.05.07**
 - crainDolls.js : 크레인 인형뽑기 게임 (2019 카카오 개발자 겨울 인턴쉽)
 - dartResult.js : 다트 게임 (2018 KAKAO BLIND RECRUITMENT)
 - findKimSeoBang.js : 서울에서 김서방 찾기
+- **fRate.js : 실패율 (2019 KAKAO BLIND RECURITMENT)** : sort 함수 정확하게 사용해야 함!
 - hateSameNumbers.js : 같은 숫자는 싫어
 - inbetweens.js : 두 정수 사이의 합
 - knumber.js : K번째수
