@@ -11,8 +11,8 @@
 **2020.05.04-2020.05.07**
 - crainDolls.js : 크레인 인형뽑기 게임 (2019 카카오 개발자 겨울 인턴쉽)
 - dartResult.js : 다트 게임 (2018 KAKAO BLIND RECRUITMENT)
+- **failureRate.js : 실패율 (2019 KAKAO BLIND RECURITMENT)** : sort 함수 정확하게 사용해야 함!
 - findKimSeoBang.js : 서울에서 김서방 찾기
-- **fRate.js : 실패율 (2019 KAKAO BLIND RECURITMENT)** : sort 함수 정확하게 사용해야 함!
 - hateSameNumbers.js : 같은 숫자는 싫어
 - inbetweens.js : 두 정수 사이의 합
 - knumber.js : K번째수
