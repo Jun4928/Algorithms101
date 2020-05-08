@@ -91,6 +91,8 @@
     - JavaScript Array Methods, Object, Regular Expressions
 - printer.js : 프린터 
     - 우선순위 Queue JavaScript 배열로 구현
+- stringCompression.js : 문자열 압축 (2020 KAKAO BLIND RECRUITMENT)
+    - JavaScript Array Methods, Regular Expressions 
 - tuple.js : 튜플 (2019 카카오 개발자 겨울 인턴십)
     - JavaScript Array Methods, Regular Expressions
 
