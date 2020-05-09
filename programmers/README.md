@@ -71,8 +71,10 @@
 - knumber.js : K번째수
 - marathons.js : 완주하지 못한 선수
 - mockTests.js : 모의고사
+- passwords.js : 시저암호
 - pys.js : 문자열 내 p와 y의 개수
 - secretMap.js : 비밀지도 (2018 KAKAO BLIND RECRUITMENT)
+- sortSrtings.js : 문자열 내 마음대로 정렬하기
 - squareStars.js : 직사각형 별찍기
 - stringBasics.js : 문자열 다루기 기본
 - stringToInt.js : 문자열을 정수로 바꾸기
@@ -84,6 +86,8 @@
 ### **LEVEL2**
 
 **2020.05.06-**
+- development.js : 기능개발 
+    - Stack, Queue + *성능주의!*
 - LRUCache.js : 캐시 (2018 KAKAO BLIND RECRUITMENT)
     - JavaScript Map 사용해서 LRU Cache 구현 
 - LRUCache.md : LRU Cache Algorithm 정리한 마크다운 문서
@@ -93,6 +97,8 @@
     - 우선순위 Queue JavaScript 배열로 구현
 - stringCompression.js : 문자열 압축 (2020 KAKAO BLIND RECRUITMENT)
     - JavaScript Array Methods, Regular Expressions 
+- top.js : 탑
+    - Stack, Queue
 - tuple.js : 튜플 (2019 카카오 개발자 겨울 인턴십)
     - JavaScript Array Methods, Regular Expressions
 
