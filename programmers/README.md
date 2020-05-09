@@ -86,11 +86,11 @@
 ### **LEVEL2**
 
 **2020.05.06-**
-- development.js : 기능개발 
-    - Stack, Queue + *성능주의!*
 - LRUCache.js : 캐시 (2018 KAKAO BLIND RECRUITMENT)
     - JavaScript Map 사용해서 LRU Cache 구현 
 - LRUCache.md : LRU Cache Algorithm 정리한 마크다운 문서
+- development.js : 기능개발 
+    - Stack, Queue + *성능주의!*
 - newsClustering.js : 뉴스 클러스터링 (2018 KAKAO BLIND RECRUITMENT)
     - JavaScript Array Methods, Object, Regular Expressions
 - printer.js : 프린터 
