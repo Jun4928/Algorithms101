@@ -13,7 +13,7 @@
 const maxDepth = function(root) {
 
     const dfs = function ReturnMaxDepth(node)  {
-      if(!root) return 0;  
+      if(!node) return 0;  
 
       const maxD = node.children.reduce((max, child) => {
         const depth = dfs(child); 
