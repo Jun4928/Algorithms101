@@ -97,6 +97,8 @@
     - 우선순위 Queue JavaScript 배열로 구현
 - stringCompression.js : 문자열 압축 (2020 KAKAO BLIND RECRUITMENT)
     - JavaScript Array Methods, Regular Expressions 
+- targetNumber.js : 타겟넘버
+    - JavaScript, Recursive, Binary Search Tree, Depth First Search
 - top.js : 탑
     - Stack, Queue
 - tuple.js : 튜플 (2019 카카오 개발자 겨울 인턴십)
