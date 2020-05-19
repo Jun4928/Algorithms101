@@ -49,8 +49,7 @@ const isSymmetric = function (root) {
         depth = [];
       } else if(current === null) {
         depth.push(null);
-      }
-      else { // node
+      } else { // node
         current.left !== null ? queue.push(current.left) : queue.push(null);
         current.right !== null ? queue.push(current.right) : queue.push(null);
         depth.push(current.val);
