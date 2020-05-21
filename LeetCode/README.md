@@ -1,4 +1,10 @@
-# **LeetCode**
-- 영어 문제 풀이 사이트 저장소, 자료구조와 알고리즘마다 파일 분리가 되어있음.
-- 코드와 함께 해당 문제를 풀면서 문제해결 상황을 기록해 놓은 마크다운 문서도 같이 있음
+# LeetCode
+
+## Folders: seperated by either specific Algorithm or DataStructure
+### Array, Strings
+### LinkedList
+### Stack, Queue
+### Tree
+
+
 
