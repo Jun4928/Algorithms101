@@ -23,17 +23,22 @@ const makeBinaryTree = function(array) { // array into Binary Tree
 }
 
 const distanceK = function(root, target, K) {
+
   let graph = {};
+
   const dfs = function BinaryTreeIntoGraph (node, parent) {
     if(node === null) return; // ending 조건 : null 일 때 그냥 return   
-    const neighbor = [];
-    neighbor.push(parent);
+    let neighbor = [parent, null, null]; // 초기화
 
-    node.left ? neighbor.push(node.left.val) : neighbor.push(null); // 있으면 값, 없으면 null push
-    dfs(node.left, node.val);
+    if(node.left) {
+      neighbor[1] = node.left.val; // 있으면 값 갱신
+      dfs(node.left, node.val);
+    }
 
-    node.right ? neighbor.push(node.right.val) : neighbor.push(null); // 있으면 값, 없으면 null push
-    dfs(node.right, node.val);
+    if(node.right) {
+      neighbor[2] = node.right.val; // 있으면 값 갱신
+      dfs(node.right, node.val);
+    }
 
     graph[node.val] = neighbor; // graph 에 저장 [parent, left.value, right.value];
   }
