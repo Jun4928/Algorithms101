@@ -1,12 +1,13 @@
 # Algorithms101
 In order to become a competent JavaScript Developer<br/>
 
-## **Files**
-### **Programmers** : 한국어 알고리즘 문제풀이 사이트
-[programmers link](https://programmers.co.kr)
+## Folders
+### JavaScript Algorithms Course Records
+[udemy course link](https://www.udemy.com/share/101WNkAEIYdV9aR3sF/)
 
-### **LeetCode** : the english version of the above "programmers"
+### LeetCode: Where you can imporve problem-solving skills by dealing with questions that require a variety of Algorithms and DataStructures 
 [leetcode link](https://leetcode.com)
 
-### **JavaScript Algorithms Course Records** 
-[udemy course link](https://www.udemy.com/share/101WNkAEIYdV9aR3sF/)
+### Programmers: Korean version of LeetCode 
+[programmers link](https://programmers.co.kr)
+
