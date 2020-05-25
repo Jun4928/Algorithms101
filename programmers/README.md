@@ -95,6 +95,8 @@
     - JavaScript Array Methods, Object, Regular Expressions
 - printer.js : 프린터 
     - 우선순위 Queue JavaScript 배열로 구현
+- sticks.js : 쇠막대기
+		- JavaScript Array Methods, Stack, Queue
 - stringCompression.js : 문자열 압축 (2020 KAKAO BLIND RECRUITMENT)
     - JavaScript Array Methods, Regular Expressions 
 - targetNumber.js : 타겟넘버
