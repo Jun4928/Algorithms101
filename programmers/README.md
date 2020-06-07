@@ -2,7 +2,6 @@
 한국어 코딩테스트 준비하기 위한 웹사이트 문제풀이 저장소
 
 ## **Files**
-
 ### **LEVEL1**
 프로그래밍 입문자를 위한 쉬운 수준이라고 명시되어 있지만, 카카오에서 출제 된 문제들은 쉽지많은 않다. <br/>
 문제를 잘 이해하고, 필요한 자료구조를 사용해야 한다. <br/>
@@ -84,13 +83,14 @@
 
 
 ### **LEVEL2**
-
 **2020.05.06-**
 - LRUCache.js : 캐시 (2018 KAKAO BLIND RECRUITMENT)
     - JavaScript Map 사용해서 LRU Cache 구현 
 - LRUCache.md : LRU Cache Algorithm 정리한 마크다운 문서
 - development.js : 기능개발 
     - Stack, Queue + *성능주의!*
+- joystick.js : 조이스틱
+    - Greedy Algorithm: Locally Optimal Decision, 결국 선택을 하는데 있어서 그 순간에 좋은 선택을 하기 때문에 전체적으로 보았을 때에는 최적의 솔루션이 아닐수도 있다. 실제로 테스트 케이스에서 그런 경우가 발생한 문제.
 - newsClustering.js : 뉴스 클러스터링 (2018 KAKAO BLIND RECRUITMENT)
     - JavaScript Array Methods, Object, Regular Expressions
 - printer.js : 프린터 
@@ -105,4 +105,3 @@
     - Stack, Queue
 - tuple.js : 튜플 (2019 카카오 개발자 겨울 인턴십)
     - JavaScript Array Methods, Regular Expressions
-
