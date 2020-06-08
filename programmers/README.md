@@ -93,6 +93,8 @@
     - Greedy Algorithm: Locally Optimal Decision, 결국 선택을 하는데 있어서 그 순간에 좋은 선택을 하기 때문에 전체적으로 보았을 때에는 최적의 솔루션이 아닐수도 있다. 실제로 테스트 케이스에서 그런 경우가 발생한 문제.
 - newsClustering.js : 뉴스 클러스터링 (2018 KAKAO BLIND RECRUITMENT)
     - JavaScript Array Methods, Object, Regular Expressions
+- openchat.js : 오픈채팅방 (2019 KAKAO BLIND RECURUITMENT)
+    - Javascript Map 자료구조, array functional methods
 - printer.js : 프린터 
     - 우선순위 Queue JavaScript 배열로 구현
 - sticks.js : 쇠막대기
@@ -105,3 +107,6 @@
     - Stack, Queue
 - tuple.js : 튜플 (2019 카카오 개발자 겨울 인턴십)
     - JavaScript Array Methods, Regular Expressions
+
+### **Trials and Errors**
+알고리즘 문제해결을 하며 시행착오를 겪은 코드를 기록 ex) 성능저하, 불필요한 자료구조 사용, 메소드 사용 등..
