@@ -17,3 +17,6 @@ create, change를 할 때, 같은 id의 이름을 갱신하는 것이 이 문제
 ```javascript
     const rest = [...origin.slice(0, index), ...origin.slice(index+1)] // 해당하는 fixed를 제외한 나머지 배열 
 ```
+
+### getSubsets.js
+input으로 들어오는 배열에 대해서 멱집합(부분집합)을 구하는 함수. DFS(Depth First Search) 알고리즘으로 해결할 수 있다.
