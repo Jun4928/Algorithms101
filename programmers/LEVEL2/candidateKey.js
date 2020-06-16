@@ -1,22 +1,22 @@
 const solution = function candidateKeys (relation) {
   const attributes = new Array(relation[0].length).fill(0).map((x, i) => i);
-  let flag = new Array(relation[0].length).fill(0);
+  let flag = new Array(relation[0].length).fill(false);
   const subSets = [];
   
   const subSet = function DFS (depth) { // 부분 집합 구하는 재귀 함수, DFS 알고리즘
     if (depth === attributes.length) { // 트리의 끝에 다다른 것 ==> 재귀 종료 조건
       const set = [];
       for (let i = 0; i <= attributes.length; i++) {
-        if (flag[i] === 1) set.push(attributes[i]); // flag 의 상태에 따라서 부분집합들이 만들어진다.
+        if (flag[i] === true) set.push(attributes[i]); // flag === true => 집합 만들기 
       }
       subSets.push(set); // 부분집합들을 담는 배열에 push
       return;
     }
 
-    flag[depth] = 1; // 해당 depth의 flag 1
+    flag[depth] = true; // 해당 depth의 flag true = 트리의 왼쪽
     subSet(depth + 1); // 다시 재귀호출
 
-    flag[depth] = 0; // 해당 depth의 flag 0
+    flag[depth] = false; // 해당 depth의 flag false = 트리의 오른쪽
     subSet(depth + 1); // 다시 재귀 호출
   }
   
@@ -30,13 +30,14 @@ const solution = function candidateKeys (relation) {
 
   const superKeys = subSets.filter((set) => { // 모든 부분집합에 대해서 유일성 검사
     const tuples = [];
-
-    relation.forEach((tuple) => { // 모든 튜플에 대해서
-      const tupleStr = tupleToString(tuple, set); // 각 튜플 -> 현재의 부분집합에 따라 str 으로 만들기
+    
+    for (let i = 0; i < relation.length; i++) { // 모든 튜플에 대해서
+      const tupleStr = tupleToString(relation[i], set); // 각 튜플 -> 현재의 부분집합에 따라 str 으로 만들기
+      if (tuples.includes(tupleStr)) return false; // 중복되면 바로 false return 되서 유일성 확보 X
       if (!tuples.includes(tupleStr)) tuples.push(tupleStr);  // 중복되지 않을 때만 tuples 에 push
-    });
+    };
 
-    return relation.length === tuples.length; // 테이블의 row 개수와 같으면 
+    return true // 위의 for문에서 false 로 return 되지 않으면, 유일성 확보 된 것
   });
 
 
