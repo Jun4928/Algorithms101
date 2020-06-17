@@ -30,7 +30,7 @@ const solution = function baseball (baseballInputs) {
     return strikes === inputStrikes && balls === inputBalls; // strike, ball 이 같아야 통과
   }
 
-  const filteredCandidates = candidates.filter((candidate) => { // 모든 가능한 수열에 대해서 filter 를 거친다.
+  const filteredCandidates = candidates.filter((candidate) => { // 모든 가능한 순열에 대해서 filter 를 거친다.
     for (let i = 0; i < baseballInputs.length; i++) { // 모든 입력에 대해서 검사한다.
       if (!isPassed(candidate, baseballInputs[i])) return false; //한 번이라도 통과 못하면 false
     }
