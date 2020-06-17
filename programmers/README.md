@@ -107,6 +107,8 @@
     - JavaScript Array Methods, Regular Expressions 
 - targetNumber.js : 타겟넘버
     - JavaScript, Recursive, Binary Search Tree, Depth First Search
+- thesong.js
+    - 정규표현식 문자열처리 + 주어진 조건이 많은 문제 => 세세하게 예외처리 필요
 - top.js : 탑
     - Stack, Queue
 - tuple.js : 튜플 (2019 카카오 개발자 겨울 인턴십)
