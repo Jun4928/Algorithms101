@@ -97,8 +97,10 @@
     - Greedy Algorithm: Locally Optimal Decision, 결국 선택을 하는데 있어서 그 순간에 좋은 선택을 하기 때문에 전체적으로 보았을 때에는 최적의 솔루션이 아닐수도 있다. 실제로 테스트 케이스에서 그런 경우가 발생한 문제.
 - newsClustering.js : 뉴스 클러스터링 (2018 KAKAO BLIND RECRUITMENT)
     - JavaScript Array Methods, Object, Regular Expressions
-- openchat.js : 오픈채팅방 (2019 KAKAO BLIND RECURUITMENT)
+- openchat.js : 오픈채팅방 (2019 KAKAO BLIND RECRUITMENT)
     - Javascript Map 자료구조, array functional methods
+- parenthesis.js: 괄호변환 (2020 KAKAO BLIND RECRUITMENT)
+    - 재귀(Recursion), 문제 요구사항 구현
 - printer.js : 프린터 
     - 우선순위 Queue JavaScript 배열로 구현
 - sticks.js : 쇠막대기
@@ -107,7 +109,7 @@
     - JavaScript Array Methods, Regular Expressions 
 - targetNumber.js : 타겟넘버
     - JavaScript, Recursive, Binary Search Tree, Depth First Search
-- thesong.js
+- thesong.js: 방금그곡 (2018 KAKAO BLIND RECRUITMENT)
     - 정규표현식 문자열처리 + 주어진 조건이 많은 문제 => 세세하게 예외처리 필요
 - top.js : 탑
     - Stack, Queue
