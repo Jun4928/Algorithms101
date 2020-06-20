@@ -95,6 +95,8 @@
     - Stack, Queue + *성능주의!*
 - joystick.js : 조이스틱
     - Greedy Algorithm: Locally Optimal Decision, 결국 선택을 하는데 있어서 그 순간에 좋은 선택을 하기 때문에 전체적으로 보았을 때에는 최적의 솔루션이 아닐수도 있다. 실제로 테스트 케이스에서 그런 경우가 발생한 문제.
+- makebignumber.js : 큰 수 만들기
+    - Greedy Algorithm 으로 푸는 문제. 모든 테스트 케이스는 통과했으나 10번 테스트 케이스는 시간초과로 통과하지 못 했음. 최대 효율을 내기 위해서 할 수 있는 만큼 성능 개선을 시켜봤으나..(array method 사용X, O(n) 이 걸리는 배열 복사 등..) 결국 10번 테스트케이스 시간초과를 통과하지 못 한 문제.
 - newsClustering.js : 뉴스 클러스터링 (2018 KAKAO BLIND RECRUITMENT)
     - JavaScript Array Methods, Object, Regular Expressions
 - openchat.js : 오픈채팅방 (2019 KAKAO BLIND RECRUITMENT)
