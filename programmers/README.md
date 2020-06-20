@@ -103,6 +103,8 @@
     - 재귀(Recursion), 문제 요구사항 구현
 - printer.js : 프린터 
     - 우선순위 Queue JavaScript 배열로 구현
+- squares.js : 멀쩡한 사각형
+    - 유클리드 호제법으로 최대공약수 구하는 알고리즘
 - sticks.js : 쇠막대기
 	- JavaScript Array Methods, Stack, Queue
 - stringCompression.js : 문자열 압축 (2020 KAKAO BLIND RECRUITMENT)
