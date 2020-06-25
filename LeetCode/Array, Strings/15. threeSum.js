@@ -97,7 +97,7 @@
 // }
 
 const threeSum = function(nums) {
-
+  const alreadyUsedTwoSums = new Set();
   const twoSum = function(numbers, targetNumber) {
     const results = [];
     const previous = new Set();
@@ -105,6 +105,10 @@ const threeSum = function(nums) {
     for (const number of numbers) {
       const sub = targetNumber - number;
       if (previous.has(sub)) { // two sum pair
+        const stringfied = [sub, number].toString();
+        if (alreadyUsedTwoSums.has(stringfied)) continue;
+
+        alreadyUsedTwoSums.add(stringfied);
         results.push([sub, number]);
         continue;
       }
@@ -115,22 +119,15 @@ const threeSum = function(nums) {
     return results;
   }
 
+  nums.sort();
   const fixedNums = new Set();
   const results = [];
-  const alreadyUsedTwoSums = new Set();
 
-  nums.sort();
   for (const [index, num] of nums.entries()) {
     if (fixedNums.has(num)) continue;
     const rest = nums.slice(index + 1);
       
-    const twoSums = twoSum(rest, 0 - num).filter((two) => {
-      const stringfied = two.toString();
-      if (alreadyUsedTwoSums.has(stringfied)) return false;
-      alreadyUsedTwoSums.add(stringfied);
-      return true;
-    });
-
+    const twoSums = twoSum(rest, 0 - num);
     const attahced = twoSums.map((two) => [num, ...two]);
 
     results.push(...attahced);
