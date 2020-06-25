@@ -97,7 +97,8 @@
 // }
 
 const threeSum = function(nums) {
-  const alreadyUsedTwoSums = new Set();
+
+  const alreadyUsedTwoSums = new Set(); // twoSum 함수 내에서 쌍을 검사하기 위해서 사용될 Set
   const twoSum = function(numbers, targetNumber) {
     const results = [];
     const previous = new Set();
@@ -106,9 +107,10 @@ const threeSum = function(nums) {
       const sub = targetNumber - number;
       if (previous.has(sub)) { // two sum pair
         const stringfied = [sub, number].toString();
-        if (alreadyUsedTwoSums.has(stringfied)) continue;
+        if (alreadyUsedTwoSums.has(stringfied)) continue; // 이미 있으면 
+        // 아래 로직을 실행하지 않고, twoSum 결과값에 보내지 않는다.
 
-        alreadyUsedTwoSums.add(stringfied);
+        alreadyUsedTwoSums.add(stringfied); // Set에 add
         results.push([sub, number]);
         continue;
       }
@@ -119,12 +121,14 @@ const threeSum = function(nums) {
     return results;
   }
 
-  nums.sort();
+  nums.sort(); // O(n) sorting algorithm
   const fixedNums = new Set();
   const results = [];
 
   for (const [index, num] of nums.entries()) {
-    if (fixedNums.has(num)) continue;
+    if (fixedNums.has(num)) continue; // 한 번 fixed 되어서 twosum 을 구한 값은 
+    // 중복되지 않은 triplet 을 구하기 위해서는 아래 로직을 실행할 필요가 없다.
+
     const rest = nums.slice(index + 1);
       
     const twoSums = twoSum(rest, 0 - num);
