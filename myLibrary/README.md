@@ -25,3 +25,6 @@ input으로 들어오는 배열에 대해서 멱집합(부분집합)을 구하�
 There are two other possible ways to impelement partition function which plays a key role in the quick sort algorithm
 - lomuto's partition: always pick the end as the pivot value
 - hoare's partition: pick the medium value as the pivot value
+
+### memoization.js
+- generic memoization function by using clousre, object, spread syntax 
