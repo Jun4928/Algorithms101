@@ -8,6 +8,7 @@
 어려운 자료구조나 알고리즘(ex. 트리, 이분탐색트리, DFS, BFS, 동적 계획법등..) 나오지는 않지만, 기본적으로 배열, 스택, 큐에 대한 이해와 적절한 사용이 필요한 문제들이 있다.
 
 **2020.05.04-2020.05.07**
+- budget.js : 예산 (정렬, Greedy 알고리즘)
 - crainDolls.js : 크레인 인형뽑기 게임 (2019 카카오 개발자 겨울 인턴쉽)
 - dartResult.js : 다트 게임 (2018 KAKAO BLIND RECRUITMENT)
 - **failureRate.js : 실패율 (2019 KAKAO BLIND RECURITMENT) : sort 함수 정확하게 사용해야 함!**
