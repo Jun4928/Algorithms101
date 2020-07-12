@@ -1,4 +1,4 @@
-const getPrefix = (strs) => {
+const longestCommonPrefix = (strs) => {
 	if (strs.length === 0) return '';
 
 	const [firstString, ...restStrs] = strs;
@@ -14,6 +14,7 @@ const getPrefix = (strs) => {
 	return result;
 }
 
-console.log(getPrefix(['start', 'stair', 'step']));
-console.log(getPrefix(['start', 'wework', 'today']));
-console.log(getPrefix([]));
+console.log(longestCommonPrefix(['start', 'stair', 'step']));
+console.log(longestCommonPrefix(['start', 'wework', 'today']));
+console.log(longestCommonPrefix(['flower', 'flow', 'flight']));
+console.log(longestCommonPrefix([]));
