@@ -12,4 +12,3 @@ In order to become a competent JavaScript Developer<br/>
 [programmers link](https://programmers.co.kr)
 
 ### myLibrary: some useful functions that can be applied to any possible algorithms, which I have implemented by using ES6+ JavaScript syntax.
-
